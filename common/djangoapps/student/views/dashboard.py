@@ -571,7 +571,7 @@ def student_dashboard(request):  # lint-amnesty, pylint: disable=too-many-statem
     monitoring_utils.accumulate('num_courses', len(course_enrollments))
 
     # Sort the enrollment pairs by the enrollment date
-    course_enrollments.sort(key=lambda x: x.created, reverse=True)
+    course_enrollments.sort(key=lambda x: x.created, reverse=False)
 
     # Retrieve the course modes for each course
     enrolled_course_ids = [enrollment.course_id for enrollment in course_enrollments]

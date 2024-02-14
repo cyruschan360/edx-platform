@@ -106,7 +106,7 @@ def get_enrollments(user, org_allow_list, org_block_list, course_limit=None):
     )
 
     # Sort the enrollments by enrollment date
-    course_enrollments.sort(key=lambda x: x.created, reverse=True)
+    course_enrollments.sort(key=lambda x: x.created, reverse=False)
 
     # Record how many courses there are so that we can get a better
     # understanding of usage patterns on prod.
