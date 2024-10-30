@@ -6268,7 +6268,7 @@ msgstr "前往%(platform_name)s主页"
 #: lms/templates/navigation/navbar-authenticated.html
 #: lms/templates/navigation/navbar-not-authenticated.html
 msgid "Courses"
-msgstr "课程"
+msgstr "课程目录"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
 msgid "My Account"

@@ -8362,7 +8362,7 @@ msgstr ""
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] "课程"
+msgstr[0] "课程目录"
 
 #: lms/templates/learner_dashboard/program_card.underscore
 msgid "Completed"
