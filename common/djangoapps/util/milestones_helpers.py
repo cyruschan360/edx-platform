@@ -177,8 +177,9 @@ def get_course_display_string(block):
         block (CourseBlock|CourseOverview): a course or course overview.
     """
     return ' '.join([
-        block.display_org_with_default,
-        block.display_number_with_default
+        #block.display_org_with_default,
+        #block.display_number_with_default
+        block.display_name
     ])
 
 
